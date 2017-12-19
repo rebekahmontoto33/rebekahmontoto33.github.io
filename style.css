@@ -1,0 +1,143 @@
+/* This is a style sheet comment. */
+@import "https://fonts.googleapis.com/css?family=Cabin+Sketch|Special+Elite";
+
+body {
+  background-image: url("typewriter-2880.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  font-family: 'Special Elite', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+#index {
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url("textured-paper.png");
+  border: 1px solid #999;
+
+  /* padding: 10px; */
+
+  max-width: 700px;
+  min-height: 500px;
+}
+
+#resume {
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url("textured-paper.png");
+  border: 1px solid #999;
+
+  padding: 10px;
+
+  max-width: 700px;
+  min-height: 500px;
+}
+
+#drumming {
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url("textured-paper.png");
+  border: 1px solid #999;
+
+  padding: 10px;
+
+  max-width: 700px;
+  min-height: 500px;
+}
+
+#songwriting {
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url("textured-paper.png");
+  border: 1px solid #999;
+
+  padding: 10px;
+
+  max-width: 700px;
+  min-height: 600px;
+}
+
+h1 {
+  font-family: 'Cabin Sketch', sans-serif;
+  letter-spacing: 0;
+  margin-top: 0;
+}
+
+main {
+  padding: 0 30px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article h3,
+article h4,
+article p {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.fade,
+p.location,
+p.speaker {
+  text-transform: uppercase;
+}
+
+p.fade,
+p.location,
+p.actions {
+  margin: 10px 0px 10px 0px;
+}
+
+p.speaker {
+  text-align: center;
+  margin-top: 15px;
+}
+
+p.dialogue {
+  margin: 0px 150px 0px 150px;
+  padding: 0px 0px 10px 0px;
+}
+
+p.parenthetical {
+  text-align: center;
+}
+
+p.poem {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p.verse {
+  text-align: center;
+  margin: 0px 150px 0px 150px;
+  padding-bottom: 10px;
+}
+
+p.caption {
+  font-size: 10pt;
+}
+
+p.alignright {
+  text-align: right;
+  padding: 5px 0px 0px 0px;
+}
+
+footer {
+  padding-left: 30px;
+}
+
+
+</style>
